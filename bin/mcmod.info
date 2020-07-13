@@ -5,10 +5,10 @@
     "description": "Minecraft <=> Discord integration",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "https://discordintegration.net",
+    "url": "https://github.com/dualmoon/DiscordIntegration",
     "updateUrl": "",
     "authorList": [
-      "Chikachi"
+      "dualmoon"
     ],
     "credits": "",
     "logoFile": "",
