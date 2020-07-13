@@ -1,5 +1,8 @@
 # Changelog (MC 1.12)
 
+### 3.1.1
+- [Chat] You are now able to configure the username of webhook messages (including per-channel)
+
 ### 3.1.0
 - [Forge] Updated to build against 1.12.2-14.23.4.2705
 - [Library] Updated JDA

@@ -27,7 +27,7 @@ apply plugin: 'com.diffplug.gradle.spotless'
 
 def mcVersion = '1.12.2'
 def forgeVersion = '14.23.4.2705'
-def modVersion = '3.0.5'
+def modVersion = '3.1.1'
 
 def jdaVersion = '3.8.3'
 def jdaJob = 464
