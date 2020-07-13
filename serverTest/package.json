@@ -1,8 +1,8 @@
 {
   "name": "discordintegration-ci-minecraft-server-test",
   "author": {
-    "name": "Chikachi",
-    "email": "chikachi@chikachi.net"
+    "name": "Ashley Davis",
+    "email": "ashley@airsi.de"
   },
   "scripts": {
     "build": "tsc",
