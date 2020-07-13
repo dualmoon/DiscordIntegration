@@ -68,7 +68,7 @@ getVersions()
             .useServerProperties()
             .setServerDirectory(serverDirectory)
             .addLocalMod(modFilepath)
-            .addConfigFile(pathResolve('..', 'discordintegration.json'), ['Chikachi'])
+            .addConfigFile(pathResolve('..', 'discordintegration.json'), ['luna'])
             .setDelayBeforeCommands(5000)
             .addCommand(`/say Hello from ${minecraftVersion}`);
 

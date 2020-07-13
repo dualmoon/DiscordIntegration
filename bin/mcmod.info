@@ -5,7 +5,7 @@
     "description": "Minecraft <=> Discord integration",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "https://github.com/dualmoon/DiscordIntegration",
+    "url": "https://discordintegration.net",
     "updateUrl": "",
     "authorList": [
       "dualmoon"
