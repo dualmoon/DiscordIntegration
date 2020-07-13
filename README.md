@@ -9,4 +9,6 @@ This is a server-side mod and therefore dosen't need to be on the client.
 - Ability to configure per Discord channel and per Minecraft dimension
 - All commands is executed through a FakeUser ([DiscordFakeUser / 828653ca-0185-43d4-b26d-620a7f016be6](https://mcuuid.net/?q=828653ca-0185-43d4-b26d-620a7f016be6)) that you can decide permissions to through vanilla OP and other permission mods.
 
+Originally by [Chikachi](https://github.com/chikachi)
+
 _This mod is not affiliated with Discord in any way._

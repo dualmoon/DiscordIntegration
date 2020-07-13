@@ -29,8 +29,8 @@ def mcVersion = '1.12.2'
 def forgeVersion = '14.23.4.2705'
 def modVersion = '3.0.5'
 
-def jdaVersion = '3.6.0'
-def jdaJob = 354
+def jdaVersion = '3.8.3'
+def jdaJob = 464
 
 def downloadDir = "${buildDir}/download/"
 
@@ -120,27 +120,12 @@ def CurseForgeDependencyDownloader = { dependencyInfo ->
   files(file.absolutePath)
 }
 
-def JDADependencyDownloader = {
-  String url = "http://home.dv8tion.net:8080/job/JDA/${jdaJob}/artifact/build/libs/JDA-${jdaVersion}_${jdaJob}-withDependencies.jar"
-  File file = new File("${downloadDir}/JDA-${jdaVersion}_${jdaJob}-withDependencies.jar")
-  file.parentFile.mkdirs()
-  if (!file.exists()) {
-    printDebug "Download ${url}"
-    new URL(url).withInputStream { downloadStream ->
-      file.withOutputStream { fileOut ->
-        fileOut << downloadStream
-      }
-    }
-  }
-  files(file.absolutePath)
-}
-
 // Dependencies on CurseForge
 List<CurseForgeDependencyInfo> curseForgeDependencies = new ArrayList<CurseForgeDependencyInfo>()
 curseForgeDependencies.add(new CurseForgeDependencyInfo("Dynmap", "2.6-beta-1-forge-1.12", "jar", "2436596"))
 
 dependencies {
-  compile 'net.dv8tion:JDA:3.8.3_464'
+  compile 'net.dv8tion:JDA:' + jdaVersion + '_' + jdaJob
   compile 'com.vdurmont:emoji-java:4.0.0'
 
   // CurseForge
