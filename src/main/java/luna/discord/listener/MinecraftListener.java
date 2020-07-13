@@ -414,6 +414,7 @@ public class MinecraftListener {
         }
 
         String getAuthorName() {
+            //TODO: configure this to allow custom usernames
             return this.authorName;
         }
 
